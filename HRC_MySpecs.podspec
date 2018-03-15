@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "HRC_MySpecs"
   s.version      = "0.0.1"
-  s.summary      = "华润策私有库"
+  s.summary      = "Devhua私有库"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -52,10 +52,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "华润策" => "huarunce@douyu.tv" }
-  # Or just: s.author    = "华润策"
-  # s.authors            = { "华润策" => "huarunce@douyu.tv" }
-  # s.social_media_url   = "http://twitter.com/华润策"
+  s.author             = { "Devhua" => "huarunce2014@gmail.com" }
+  # Or just: s.author    = "Devhua"
+  # s.authors            = { "Devhua" => "huarunce2014@gmail.com" }
+  # s.social_media_url   = "http://twitter.com/Devhua"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Devhua/HRC_MySpecs.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Devhua/HRC_MySpecs.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
